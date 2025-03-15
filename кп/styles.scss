@@ -1,0 +1,53 @@
+// Файл: styles.scss
+@import 'menu';
+
+// Основные стили страницы
+body {
+  font-family: 'DejaVu Sans Mono', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #009688;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .svg {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .menu {
+    a {
+      color: white;
+      text-decoration: none;
+      margin-right: 10px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+
+// Файл: menu.scss
+.menu {
+  display: flex;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

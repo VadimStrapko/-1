@@ -1,0 +1,63 @@
+*{
+    color:#fff;
+    font-size: 20px;
+    font-family: 'DejaVu Sans Mono', monospace;
+      
+}
+body {
+  width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+     background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    max-width: 930px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+ .logo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    height: 100px;
+width: 100px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.designer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+    }
+
+    .designer {
+      text-align: center;
+      width: 300px;
+      padding: 20px;
+        margin:20px;
+      background-color: teal;
+      border-radius: 20px;
+    }
+
+    .designer img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+h1{
+    text-align: center;
+}
+footer {
+  color: #fff;
+    padding: 10px;
+    /* Добавьте другие стили по вашему желанию */
+}
+
+  
