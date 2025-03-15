@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+
+
+.grid {
+    height: 100%;
+    display: grid;
+
+    grid-template-columns: .2fr 1fr .4fr;
+    grid-template-rows: .2fr 1fr .4fr;
+
+    grid-template-areas: 
+    "nav head head"
+    "nav arti asid"
+    "foot foot foot";
+    
+}
+
+
+.header {
+    grid-area: head;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.article {
+    grid-area: arti;
+}
+
+.aside {
+    grid-area: asid;
+}
+
+.footer {
+    grid-area: foot;
+}
+
+.box {
+    border: 1px solid;
+    background: green;
+}
+a {
+    color: black;
+    text-decoration: none
+}

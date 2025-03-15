@@ -1,0 +1,251 @@
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.div1, .div2{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+.div1{
+    color: red;
+    font-size: 22pt;
+    width: 640px;
+    
+    height: 75px;
+}
+.div2{
+    color: white;
+    margin: 5px;
+    width: 200px;
+    height: 400px;
+}
+video {
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+}
+audio {
+   width: 170px;
+    height: 100px;
+     
+}
+figcaption{
+    color: rebeccapurple;
+    font-size: 5pt;
+}
+div figcaption {
+    text-align: center;
+    color: green;
+}
+
+@media (max-width: 1280px)  and (min-width: 460px) {
+    div img {
+        border: solid black 2px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 300px) {
+    div div figcaption {
+        color: red; }
+    .gallery {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.container {
+    display: flex;
+    flex-flow: row ;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+    }
+
+.div1 {
+    flex: 3 300px;
+    order: 1;
+    
+    }
+        
+.div2 {
+    
+    flex: 1 300px;
+    display: flex;
+    flex-flow: row;
+    order: 1;
+   
+    
+}
+
+.div {
+    border: solid black 2px;
+}
+
+.div0 {
+    display: flex;
+
+}
+
+.zag {
+    border: solid black 2px;
+    justify-content: center;
+    align-content: center;
+}
+
+.div01 {
+    width: 40%;
+    border: solid black 2px;
+}
+
+.div02 {
+    width: 28%;
+    border: solid black 2px;
+    align-items: center;
+}
+
+nav li div ul div { 
+    visibility: visible;
+}
+
+li label {
+    visibility: hidden;
+    position: absolute;
+}
+
+.burg2 {
+    position: absolute;
+
+}
+
+.burg {
+    position: relative; 
+    display: flex;
+    border: black solid 2px; 
+    padding: 15px; 
+    justify-content: space-around; 
+    justify-self: center; 
+    width: 97%; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+@media (max-width: 480px) {
+
+    div figcaption {
+        text-align: center;
+        color: rgb(255, 0, 0);
+        
+    }
+
+
+    .burg {
+        position: absolute; 
+        display: flex;
+        border: black solid 2px; 
+        padding: 15px; 
+        justify-content: space-around; 
+        justify-self: center; 
+        width: 40%; 
+        margin-left: auto; 
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: column ;
+        align-content: space-between;
+        align-items: flex-start;
+        justify-content: center;
+        }
+
+        .div2 {
+    
+            flex: 1 300px;
+            display: flex;
+            flex-flow: column;
+            order: 1;
+           
+            
+        }
+
+        .div01, .div02  {
+            width: 380px;
+            border: solid black 2px; 
+            align-items: center;
+        }
+
+
+        li label {
+            top: 59px;
+            left: 348px;
+            visibility: visible;
+            position:absolute;
+        }
+
+        nav li div {
+            visibility: hidden;
+            position: absolute;
+            width: 150px;
+            flex-flow: column;
+        }
+        
+        
+         div nav li input:checked ~ .burg div,  div nav li input:checked ~ .burg  {
+            visibility: visible;
+            
+        }
+        
+        .burg div {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        
+}
+
+.gallery {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+div img {
+    border: solid black 2px;
+    width: 400px;
+    height: 400px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+@media (max-width: 1280px)  and (min-width: 460px) {
+    div img {
+        border: solid black 2px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 300px) {
+    div div figcaption {
+        color: red;
+    }
+}
+    img {
+        height: 100px;
+        width: 100px;
+    }
+    
+

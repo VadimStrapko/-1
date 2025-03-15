@@ -1,0 +1,54 @@
+div:not(.wrapper):not(.row) {
+    border: black 2px solid;
+}
+
+.row {
+    margin: 20px;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.first {
+    margin-top: 35px;
+}
+
+.first a:not(a:first-child) {
+    margin-left: 37px;
+}
+
+.first a {
+    font-size: 25px;
+    color: gray;
+    text-decoration: none;
+}
+
+.first a:hover {
+    color: brown;
+}
+
+.second {
+    text-align: center;
+    font-size: 20px;
+}
+
+.threth {
+    font-size: 20px;
+}
+
+.hor {
+    text-decoration: none;
+    margin-left: 400px;
+    margin-top: 700px;
+    color: white;
+    transition: all 3s;
+    font-size: 30px;
+}
+
+.hor:hover {
+    color: black;
+}

@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    grid-gap: 0 20px;
+    text-align: center;
+
+    grid-template-columns: 60px 1fr 1fr;
+}
+
+.box {
+    border: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    height: 98vh;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.box h2 {
+    text-align: center;
+}
+
+.grid .box:first-child {
+    font-size: 40px;
+}
